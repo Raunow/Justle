@@ -3,10 +3,12 @@ package main
 import (
 	// "flag"
 	"fmt"
-	// "net/http"
-	// "io/ioutil"
+
+	"github.com/raunow/justle/src/config"
 )
 
 func main() {
+	config.ReadConfig()
 	fmt.Println("Hello World!")
+
 }

@@ -5,7 +5,7 @@
             "label": "Run",
             "type": "shell",
             "windows": {
-                "command": "justle.exe"
+                "command": ".\\justle.exe"
             },
             "linux": {
                 "command": "gopher"
